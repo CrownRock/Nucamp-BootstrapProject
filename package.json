@@ -1,0 +1,25 @@
+{
+  "name": "villa francesca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"    
+  },
+  "author": "Steve Stout",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.0.0",
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.12.9"
+  }
+}

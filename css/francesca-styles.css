@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* CSS Document 
+Villa Francesca
+Steve Stout
+2020 */
+
+body {
+    font-family: 'Open Sans', 'Myriad Pro', 'Helvetica', sans-serif;
+    padding-top: 25px;  /*  For Fixed-Top Navbar -- should be 23 without box shadow */
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Cormorant SC', 'Cambria', 'Liberation Serif', serif;
+    text-align: center; 
+}
+
+hr {
+    width: 80%;
+    background-color: rgba(119, 21, 19, 0.3);
+}
+ /*--- FONT FAMILY for Decorative Headings */
+.decorative {
+    font-family: 'Great Vibes', cursive;
+    margin: 1.5em 0 1em;
+}
+/*~~~~~ COLORS ~~~~~*/
+
+/*~~~~~ NAV ~~~~~*/
+.navbar-brand {
+    padding: 0 .15rem;
+}
+
+.dark-bkg {
+    background-color: #232323;
+}
+.navbar {
+    box-shadow: 0 1px 1px 2px #232323;
+}
+
+.navbar-nav > .nav-item > .nav-link {
+    padding: 0 0.8rem;
+}
+
+.navbar-nav > .nav-item > .nav-link {
+    font-family: 'Cormorant SC';
+    font-size: 1.2rem;
+    padding: 0 0.8rem;
+}
+/*~~~~~ HEADERS ~~~~~*/
+.heading-container {
+    padding: 0;
+    position: relative;
+    text-align: center;
+
+}
+.heading-text {
+    position: absolute;
+    top: 4.5em;
+    left: 2.5em;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    text-shadow: 0 2px 3px #111;
+}
+
+.heading-links {
+    color: #333;
+}
+
+.heading-links:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+/*~~~~~ CONTACT page ~~~~~*/
+.contact-heading {
+    padding: 3rem 0;
+}
+.contact-heading1 {
+    background-image: linear-gradient(#770D15, #B4000F);
+    min-height: 6em;
+    opacity: 0.9;
+}
+.contact-heading2 {
+    background-color: #F9EEC9;
+    min-height: 6em;
+}
+.contact-heading2 h1 {
+    font-family: 'Great Vibes';
+    padding-top: .6em;
+}
+.contact-heading3 {
+    background-image: linear-gradient(#90A74C, #597718);
+    min-height: 6em;
+    opacity: 0.9;
+}
+.captcha {
+    padding: 1em, 1.5em;
+    margin-bottom: 1rem;
+    border: 1px solid #555;
+}
+
+/*  Form  */
+.contact-form {
+    padding: 3rem;
+    background: #F9EEC9;
+    border-radius: 1rem;
+    border: 1px solid #D3B786; 
+}
+.required {
+    color: #aaa;
+    font-size: .8725rem;
+}
+/*----- CTA Buttons -----*/
+.cta {
+    display: block;
+    margin: 0 auto;
+    padding: 1em 1.2em;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    border: 3px solid #58483A;;  
+    background: #B4000F;
+    color: #efefef;
+}
+
+a.cta-a {
+    text-decoration: none;
+}
+
+a.cta-a button:hover {
+    background-color: rgba(89,119,24,0.90);
+    border: none;
+    transition: .2s ease;
+}
+/*----- MENU page -----*/
+#accordion {
+    border: 1px solid #101010;
+    border-radius: 5px;
+}
+
+#accordion .card {
+    background-color: #fefefe;
+}
+
+#accordion .card .card-header {
+    background-color: #343434;
+}
+
+#accordion .card .card-header > h3 .btn-link {
+    color: #efefef;
+    font-size: 2rem;
+    font-family: "Cormorant SC";
+}
+
+#accordion .card .card-header > h3 .btn-link:hover {
+    color: #e4b455;
+    text-decoration: none;
+}
+
+#accordion .card .card-body {
+    background-color: #fefefe;
+    color: #101010;
+}
+/*~~~~~ Gift Cards ~~~~~~*/
+.gift-bkg {
+    background-color: #770D15; 
+}
+/*-- ABOUT --*/
+
+/* +++ Carousel Fade code not working
+.carousel-fade .carousel-item {
+    transition: transform 1s ease, opacity .5s ease-out
+}
+/*----- SLIDERS -----
+#homeSlide .carousel-fade .carousel-inner .carousel-item {
+transition: transform 2s ease, opacity .5s ease-out;
+}
+*/
+footer {
+    min-height: 18rem;
+    padding: 1rem 4rem;
+    background-color: #232323;
+    color: #efefef;
+}
+
+.phone {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#footer-phone  {
+    color: #efefef;
+    margin: auto;
+}
+
+#footer-phone:hover  {
+    color: #75E6FF;
+    text-decoration: none;
+}
+
+address {
+    display: inline;
+}
+/*~~~~~ Form Icons ~~~~~
+.i-style {
+    padding: 1px;
+    font-size: .5rem;
+    width: 0px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #232323;
+}
+/*----- SOCIAL  -----*/
+.fa {
+    padding: .5em;
+    font-size: 1.5rem;
+    color: #fefefe;
+    text-align: center;
+    text-decoration: none;
+    margin: .4rem;
+    background-color: #232323;
+    /*border: 1px solid #fefefe;
+    border-radius: .5rem;*/
+}
+
+.fa-facebook:hover {
+    background-color: #fefefe;
+    color: #4278b2;
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+.fa-snapchat:hover {
+    background-color: #fefefe;
+    color: #eeed11;
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+.fa-twitter:hover {
+    background-color: #fefefe;
+    color: #5189C1;
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+.fa-youtube:hover {
+    background-color: #fefefe;
+    color: #FF0000;
+    text-decoration: none;
+    border-radius: .5rem;
+}
+/*~~~~~ RESERVATIONS ~~~~~~*/
+#reservation {
+    background-color: #597718;
+    border-radius: 1rem;
+    padding: 3rem;
+    min-height: 10rem;
+    text-align: center;
+    color: white;
+}
+.reserve {
+    font-size: 1.2rem;
+    text-align: center;
+}
+#wine-tasting {
+    background-color: #770D15;
+    border-radius: 1rem;
+    padding: 3rem;
+    min-height: 10rem;
+    color: white;
+}
+#parties {
+    background-color: #597718;
+    border-radius: 1rem;
+    padding: 3rem;
+    min-height: 10rem;
+    text-align: center;
+    color: white;
+}
